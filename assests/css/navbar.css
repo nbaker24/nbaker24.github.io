@@ -1,0 +1,22 @@
+.title{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.description{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#000000; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
