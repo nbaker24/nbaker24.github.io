@@ -3,11 +3,11 @@
 }
   /* Header/logo Title */
   .header {
-    padding: 45px;
+    
     height: 250px;
     text-align: center;
-    background: #0f0064;
-    color: white;
+    background: url(../../images/Systems_Pack\,_Inc._Logo.png);
+    color: black;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-shadow: 4px 4px 4px black;
   }
@@ -15,6 +15,7 @@
   /* Increase the font size of the heading */
   .header h1 {
     font-size: 60px;
+    opacity: 0;
   }
 
   .searchbar{
