@@ -1,6 +1,6 @@
 .menu{
     display:grid;
-    max-width: 1920px;
+    max-width: 2560px;
     grid-template-columns: 20% 20% 20% 20% 20%;
     background-color: rgb(255, 255, 255);
     padding: 0px;
