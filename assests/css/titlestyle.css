@@ -63,7 +63,7 @@ a:hover {
 
   .menu{
     display:grid;
-    max-width: 1920px;
+    max-width: 2560px;
     grid-template-columns: auto auto auto auto auto auto auto auto;
     grid-template-rows: 25px 100px 400px 200px 200px 200px 200px 200px;
     grid-gap: 5px;
