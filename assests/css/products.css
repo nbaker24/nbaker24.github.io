@@ -1,0 +1,48 @@
+.menu{
+    display:grid;
+    max-width: 2560px;
+    grid-template-columns: auto auto auto;
+  }
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    padding-left: 75px;
+}
+
+.title2{
+    text-align: left;
+    font-size: 2.5rem;
+    padding-left: 40px;
+}
+
+.description2{
+    text-align: left;
+    font-size: 2rem;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.description{
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+.list{
+    font-size: 1.5rem;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#6e6e6e; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
