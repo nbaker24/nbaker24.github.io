@@ -3,14 +3,14 @@
 }
   /* Header/logo Title */
   .header {
-    
+    padding-top: 30px;
     height: 250px;
     text-align: center;
-    background: url(../../images/Systems_Pack\,_Inc._Logo.png);
     color: black;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-shadow: 4px 4px 4px black;
   }
+  
   
   /* Increase the font size of the heading */
   .header h1 {

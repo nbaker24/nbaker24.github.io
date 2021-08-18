@@ -65,11 +65,11 @@ a:hover {
     display:grid;
     max-width: 2560px;
     grid-template-columns: auto auto auto auto auto auto auto auto;
-    grid-template-rows: 25px 100px 400px 200px 200px 200px 200px 200px;
+    grid-template-rows: 25px 100px 400px 200px 200px 200px 200px 200px 200px 200px;
     grid-gap: 5px;
     background-color: rgb(255, 255, 255);
     padding: 0px;
-    height: 2500px;
+    height: 2000px;
   }
 
   .main-menu {
@@ -503,6 +503,14 @@ a:hover {
       text-decoration: none;
       color: rgb(0, 0, 0);
       font-size: 1rem;
+      font-family: 'Roboto', sans-serif;
+      margin: 1cm;
+    }
+
+    .main-menu .description2{
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      font-size: .75rem;
       font-family: 'Roboto', sans-serif;
       margin: 1cm;
     }
