@@ -78,7 +78,7 @@ let ProductCategories = {
         "Duct Tape": "../Tape/tapecategories/duct",
         "Electrical Tape": "../Tape/tapecategories/electrical",
         "Flatback Tape": "../Tape/tapecategories/cartonsealingtape",
-        "Gluedots": "../Tape/tapecategories/gluedots",
+        "Gluedots": "../Tape/tapecategories/gluedots.html",
         "Gummed Dispensers": "../Tape/tapecategories/kraft",
         "Hand-Held Dispensers": "../Tape/tapecategories/cartonsealingtape",
         "High Tempurature Tape": "../Tape/tapecategories/hightemperature",
