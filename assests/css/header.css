@@ -78,5 +78,7 @@
   @media screen and (max-width: 700px) {
     .header{
       background-size: 400px;
+      background-position-x: center;
+      background-position-y: 45%;
     }
   }
