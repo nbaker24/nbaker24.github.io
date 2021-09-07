@@ -1,4 +1,4 @@
-let NotFound = 'index';
+let NotFound = '/notfound.html?search=';
 
 const TAPE = '/tape/tape';
 const SUB = 'subcategories/';
@@ -178,7 +178,7 @@ function PerformSearch(event) {
         event.target.dataset.href = NamedSearches[key];
     } else {
         // do "not found" stuff
-        event.target.dataset.href = NotFound;
+        event.target.dataset.href = NotFound + event.target.value;
     }
     // document.getElementById("output").innerHTML = event.target.dataset.href;
 };
