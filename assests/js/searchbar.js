@@ -1,4 +1,4 @@
-let NotFound = "/index";
+let NotFound = "/index.html";
 
 const TAPE = '/tape/tape';
 const SUB = 'subcategories/';
