@@ -178,7 +178,7 @@ function PerformSearch(event) {
         event.target.dataset.href = NamedSearches[key];
     } else {
         // do "not found" stuff
-        event.target.dataset.href = NotFound + event.target.value;
+        event.target.dataset.href = NotFound;
     }
     // document.getElementById("output").innerHTML = event.target.dataset.href;
 };
