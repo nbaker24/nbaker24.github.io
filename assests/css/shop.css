@@ -1,4 +1,11 @@
 .menu{
+  background: url(../../images/SPI.png);
+    background-size: 1800PX;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    background-origin:border-box;
+    background-attachment: scroll;
     display:grid;
     max-width: 2560px;
     grid-template-columns: 20% 20% 20% 20% 20%;
@@ -8,7 +15,6 @@
   }
 
   .category{
-    background-color: white;
     height: 333.33px;
     border: solid 1px black;
   }

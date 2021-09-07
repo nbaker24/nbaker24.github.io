@@ -1,4 +1,11 @@
 .menu{
+  background: url(../../images/SPI.png);
+  background-size: 1800PX;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  background-origin:border-box;
+  background-attachment: scroll;
     display:grid;
     max-width: 2560px;
     grid-template-columns: 55% 45%;
@@ -8,8 +15,8 @@
   }
 
   .itemtitle{
+    background: white;
     grid-column-end: span 2;
-    background-color: white;
     height: 150px;
     padding: 20px;
     transition: 250ms;
@@ -17,7 +24,6 @@
   }
 
   .item{
-    background-color: white;
     height: auto;
     padding: 20px;
     transition: 250ms;
@@ -26,7 +32,6 @@
 
   .category{
     padding: 10px;
-    background-color: white;
     height: auto;
     transition: 250ms;
     border-top: solid 1px black;

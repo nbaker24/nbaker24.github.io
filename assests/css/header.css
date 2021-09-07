@@ -1,8 +1,15 @@
 * {
     box-sizing: border-box;
 }
+
   /* Header/logo Title */
   .header {
+    background-image: url('../../images/Systems_Pack\,_Inc._Logo[1526].png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top; 
+    background-size: 625px;
+    background-attachment: scroll;
     height: 250px;
     text-align: center;
     color: black;
@@ -66,4 +73,10 @@
     padding: 20px;
     text-align: center;
     background: rgb(201, 201, 201);
+  }
+
+  @media screen and (max-width: 700px) {
+    .header{
+      background-size: 400px;
+    }
   }
