@@ -8,7 +8,7 @@
   background-attachment: scroll;
     display:grid;
     max-width: 2560px;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: auto auto;
     background-color: rgb(255, 255, 255);
     padding: 0px;
     height: auto;
@@ -99,7 +99,7 @@ a:hover {
     height: auto;
   }
   .item{
-    
+    grid-column-end: span 2;
     border-top: white;
     height: auto;
   }
@@ -123,19 +123,4 @@ a:hover {
   url('roboto.woff') format('woff'), /* Modern Browsers */
   url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
   url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-@media screen and (max-width: 700px) {
-  .menu{
-    grid-template-columns:  100%;
-    height: auto;
-  }
-  .item{
-    opacity: 0;
-    grid-column-end: span 1;
-    height: auto;
-    padding: 20px;
-    transition: 250ms;
-    border-top: solid 1px black;
-  }
 }
