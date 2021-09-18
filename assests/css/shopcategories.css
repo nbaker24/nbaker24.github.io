@@ -95,7 +95,7 @@ a:hover {
 
 @media screen and (max-width: 700px) {
   .itemtitle{
-    grid-column-end: span 1;
+    grid-column-end: span 2;
     height: auto;
   }
   .item{
